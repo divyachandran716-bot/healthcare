@@ -1,7 +1,5 @@
 
-import { HashRouter } from "react-router-dom";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 
@@ -23,7 +21,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 export default function App() {
   return (
-    <HashRouter>
+    
       <Routes>
 
         {/* ================= AUTH ================= */}
@@ -223,6 +221,6 @@ export default function App() {
         />
 
       </Routes>
-    </HashRouter>
+  
   );
 }
