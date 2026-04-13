@@ -1,28 +1,3 @@
-// import Sidebar from "../components/Sidebar";
-// import Navbar from "../components/Navbar";
-// import Charts from "../components/Charts";
-// import { useAuth } from "../context/AuthContext";
-
-// export default function Analytics() {
-//   const { user } = useAuth();
-
-//   return (
-//     <div className="flex">
-//       <Sidebar role={user.role} />
-
-//       <div className="flex-1 p-6 bg-gray-100">
-//         <Navbar />
-//         <h2 className="text-xl font-bold">Analytics</h2>
-
-//         <Charts />
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
-
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import { useAuth } from "../context/AuthContext";
